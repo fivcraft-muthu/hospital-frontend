@@ -101,34 +101,30 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:col-span-5 hidden lg:block animate-pulse-slow">
-            <div className="relative">
+          <div className="lg:col-span-5 mt-10 lg:mt-0 animate-pulse-slow">
+            <div className="relative mx-auto max-w-md lg:max-w-none">
               {/* Abstract decorative frame */}
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary to-primary rounded-3xl rotate-3 scale-102 opacity-20"></div>
-              <div className="relative bg-slate-800/80 border border-slate-700/60 p-8 rounded-3xl shadow-2xl backdrop-blur-md space-y-6">
-                <h3 className="font-display font-bold text-xl text-white">Emergency Center</h3>
-                <p className="text-slate-300 text-sm leading-relaxed">
-                  Our emergency services are available round the clock with dedicated nursing staff and senior doctors on call.
-                </p>
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3 text-slate-300">
-                    <div className="bg-red-500/20 text-red-400 p-2 rounded-xl">
-                      <FaPhoneAlt />
-                    </div>
-                    <div>
-                      <span className="text-xs text-slate-400 block font-semibold">24/7 Hotline</span>
-                      <span className="text-base text-white font-bold">+91 90425 32040</span>
-                    </div>
-                  </div>
-                  <div className="flex items-center space-x-3 text-slate-300">
-                    <div className="bg-secondary/25 text-secondary p-2 rounded-xl">
-                      <FaClock />
-                    </div>
-                    <div>
-                      <span className="text-xs text-slate-400 block font-semibold">Location</span>
-                      <span className="text-sm text-white font-bold">Courtallam Main Rd, Tenkasi</span>
-                    </div>
-                  </div>
+              
+              {/* Image frame */}
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-700/60 aspect-[4/3] bg-slate-800">
+                <img
+                  src="/hospital-building.jpg"
+                  alt="Meeran Hospital Building"
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                />
+                {/* Gradient overlay to integrate with dark layout */}
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent pointer-events-none"></div>
+              </div>
+
+              {/* Floating Emergency Badge */}
+              <div className="absolute -bottom-6 left-6 lg:-left-6 bg-slate-900/95 border border-slate-700/60 backdrop-blur-md p-4 rounded-2xl shadow-xl flex items-center space-x-3">
+                <div className="bg-red-500/20 text-red-400 p-3 rounded-xl animate-pulse">
+                  <FaPhoneAlt />
+                </div>
+                <div>
+                  <span className="text-[10px] text-slate-400 block font-semibold uppercase tracking-wider">24/7 Emergency</span>
+                  <span className="text-sm text-white font-bold">+91 90425 32040</span>
                 </div>
               </div>
             </div>

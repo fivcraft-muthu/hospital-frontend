@@ -42,17 +42,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
+          <Link to="/" className="flex items-center group">
             <div className="transition-all-300 group-hover:scale-110">
-              <img src="/logo.png" alt="Meeran Hospital Logo" className="h-11 w-11 object-contain rounded-xl shadow-sm border border-slate-100 bg-white" />
-            </div>
-            <div>
-              <span className="font-display font-bold text-xl sm:text-2xl text-primary tracking-tight block leading-none">
-                Meeran
-              </span>
-              <span className="text-xs text-secondary font-medium tracking-widest uppercase block mt-0.5">
-                Hospital
-              </span>
+              <img src="/logo.png" alt="Meeran Hospital Logo" className="h-12 w-auto object-contain" />
             </div>
           </Link>
 

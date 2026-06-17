@@ -36,16 +36,11 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
         }`}
       >
         {/* Header Branding */}
-        <div className="flex items-center space-x-2 px-6 py-5 border-b border-slate-800">
-          <img src="/logo.png" alt="Meeran Hospital Logo" className="h-9 w-9 object-contain rounded-lg bg-white p-0.5 border border-slate-800" />
-          <div>
-            <span className="font-display font-bold text-base text-white tracking-tight leading-none block">
-              Meeran Hospital
-            </span>
-            <span className="text-[9px] text-secondary tracking-widest uppercase block mt-0.5 font-bold">
-              Admin Portal
-            </span>
-          </div>
+        <div className="flex items-center justify-between px-6 py-5 border-b border-slate-800">
+          <img src="/logo.png" alt="Meeran Hospital Logo" className="h-9 w-auto object-contain rounded-lg bg-white p-0.5" />
+          <span className="text-[10px] bg-secondary/15 text-secondary px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider">
+            Admin
+          </span>
         </div>
 
         {/* Navigation links */}

@@ -12,16 +12,8 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <img src="/logo.png" alt="Meeran Hospital Logo" className="h-9 w-9 object-contain rounded-lg bg-white p-0.5" />
-              <div>
-                <span className="font-display font-bold text-xl text-white tracking-tight leading-none block">
-                  Meeran
-                </span>
-                <span className="text-[10px] text-secondary tracking-widest uppercase block mt-0.5">
-                  Hospital
-                </span>
-              </div>
+            <div className="flex items-center">
+              <img src="/logo.png" alt="Meeran Hospital Logo" className="h-9 w-auto object-contain rounded-lg bg-white p-0.5" />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Providing compassionate and professional healthcare services to Tenkasi and surrounding regions since inception. Your well-being is our ultimate commitment.
