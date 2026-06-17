@@ -44,14 +44,14 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="transition-all-300 group-hover:scale-110">
-              <img src="/logo.png" alt="Shanthi Nikethan Logo" className="h-11 w-11 object-contain rounded-xl shadow-sm border border-slate-100 bg-white" />
+              <img src="/logo.png" alt="Meeran Hospital Logo" className="h-11 w-11 object-contain rounded-xl shadow-sm border border-slate-100 bg-white" />
             </div>
             <div>
               <span className="font-display font-bold text-xl sm:text-2xl text-primary tracking-tight block leading-none">
-                Shanthi Nikethan
+                Meeran
               </span>
               <span className="text-xs text-secondary font-medium tracking-widest uppercase block mt-0.5">
-                Nursing Home
+                Hospital
               </span>
             </div>
           </Link>
@@ -74,12 +74,12 @@ export default function Navbar() {
           {/* Desktop CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
             <a
-              href="tel:04633233103"
+              href="tel:+919042532040"
               id="nav-call-btn"
               className="flex items-center space-x-2 bg-secondary/10 hover:bg-secondary/20 text-secondary-dark px-4 py-2 rounded-xl text-sm font-semibold transition-all-300"
             >
               <FaPhoneAlt />
-              <span>04633 233 103</span>
+              <span>+91 90425 32040</span>
             </a>
             <Link
               to="/admin"
@@ -94,7 +94,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <div className="lg:hidden flex items-center space-x-2">
             <a
-              href="tel:04633233103"
+              href="tel:+919042532040"
               id="mobile-nav-call-btn"
               className="p-2.5 rounded-xl bg-slate-100 text-secondary-dark hover:bg-slate-200"
               title="Call Emergency"
@@ -141,12 +141,12 @@ export default function Navbar() {
 
           <div className="flex flex-col space-y-3">
             <a
-              href="tel:04633233103"
+              href="tel:+919042532040"
               id="drawer-call-btn"
               className="flex items-center justify-center space-x-2 bg-secondary/15 hover:bg-secondary/25 text-secondary-dark py-3 rounded-xl font-bold transition-all-300"
             >
               <FaPhoneAlt />
-              <span>Call: 04633 233 103</span>
+              <span>Call: +91 90425 32040</span>
             </a>
             <Link
               to="/admin"

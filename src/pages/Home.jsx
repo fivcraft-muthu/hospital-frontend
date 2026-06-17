@@ -49,9 +49,9 @@ export default function Home() {
 
   const testimonials = [
     {
-      quote: "The doctors and nurses at Shanthi Nikethan Nursing Home are exceptional. They treated my mother with so much care and patience during her recovery from viral fever. Highly recommended!",
+      quote: "The doctors and nurses at Meeran Hospital are exceptional. They treated my mother with so much care and patience during her recovery from viral fever. Highly recommended!",
       author: "Sundar Rajan",
-      location: "Shenkottai"
+      location: "Tenkasi"
     },
     {
       quote: "We had a wonderful experience for our child's delivery. Dr. Sneha was extremely reassuring, and the facilities were clean and affordable. The staff is very responsive.",
@@ -79,7 +79,7 @@ export default function Home() {
               <span className="text-secondary">Exceptional Healing</span>
             </h1>
             <p className="text-slate-300 text-base sm:text-lg max-w-xl leading-relaxed">
-              Shanthi Nikethan Nursing Home has been a trusted healthcare partner in Shenkottai. We combine professional expertise with state-of-the-art facilities to bring you the best in medical care.
+              Meeran Hospital has been a trusted healthcare partner in Tenkasi. We combine professional expertise with state-of-the-art facilities to bring you the best in medical care.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link
@@ -91,12 +91,12 @@ export default function Home() {
                 <span>Book Appointment</span>
               </Link>
               <a
-                href="tel:04633233103"
+                href="tel:+919042532040"
                 id="hero-call-btn"
                 className="flex items-center justify-center space-x-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-3.5 rounded-xl font-bold transition-all duration-300"
               >
                 <FaPhoneAlt />
-                <span>Call: 04633 233 103</span>
+                <span>Call: +91 90425 32040</span>
               </a>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
                     </div>
                     <div>
                       <span className="text-xs text-slate-400 block font-semibold">24/7 Hotline</span>
-                      <span className="text-base text-white font-bold">04633 233 103</span>
+                      <span className="text-base text-white font-bold">+91 90425 32040</span>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3 text-slate-300">
@@ -126,7 +126,7 @@ export default function Home() {
                     </div>
                     <div>
                       <span className="text-xs text-slate-400 block font-semibold">Location</span>
-                      <span className="text-sm text-white font-bold">180, KC Rd, Shenkottai, TN</span>
+                      <span className="text-sm text-white font-bold">Courtallam Main Rd, Tenkasi</span>
                     </div>
                   </div>
                 </div>
@@ -140,12 +140,12 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-6">
-            <span className="text-secondary font-bold text-xs uppercase tracking-widest block">About Our Nursing Home</span>
+            <span className="text-secondary font-bold text-xs uppercase tracking-widest block">About Our Hospital</span>
             <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-800 tracking-tight leading-tight">
-              Serving Shenkottai with Integrity and Care Since Inception
+              Serving Tenkasi with Integrity and Care Since Inception
             </h2>
             <p className="text-slate-600 leading-relaxed">
-              At Shanthi Nikethan Nursing Home, we believe in providing accessible, high-quality, and ethical healthcare. We provide a full range of medical services from preventative screening and diagnostics to specialized consultations and inpatient therapies.
+              At Meeran Hospital, we believe in providing accessible, high-quality, and ethical healthcare. We provide a full range of medical services from preventative screening and diagnostics to specialized consultations and inpatient therapies.
             </p>
             <p className="text-slate-600 leading-relaxed">
               Our hospital infrastructure is designed keeping patient comfort and recovery in mind. With clean patient wards, state-of-the-art diagnostic facilities, and a 24-hour pharmacy, we make sure that all patient needs are handled seamlessly under one roof.
@@ -296,11 +296,11 @@ export default function Home() {
               <span>Book Appointment</span>
             </Link>
             <a
-              href="tel:04633233103"
+              href="tel:+919042532040"
               className="flex items-center justify-center space-x-2 bg-white/10 hover:bg-white/20 text-white font-bold border border-white/20 px-6 py-3.5 rounded-xl text-sm transition-all duration-200"
             >
               <FaPhoneAlt />
-              <span>04633 233 103</span>
+              <span>+91 90425 32040</span>
             </a>
           </div>
         </div>

@@ -95,7 +95,7 @@ export default function StaffManagement() {
     if (!formData.department.trim()) return 'Department is required';
     if (!formData.phone.trim()) return 'Phone number is required';
     if (!/^\d{10}$/.test(formData.phone.trim()) && !/^\d{5}\s\d{3}\s\d{3}$/.test(formData.phone.trim()) && !formData.phone.includes('04633')) {
-      // Allow landline phone code for Shanthi Nikethan: '04633 233 103'
+      // Allow landline phone code for Meeran Hospital: '04633 233 103'
       if (formData.phone.length < 9) return 'Enter a valid phone number';
     }
     if (!formData.joiningDate) return 'Joining date is required';

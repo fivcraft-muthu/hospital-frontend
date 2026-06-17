@@ -49,7 +49,7 @@ function AdminLayout() {
         {/* Header Top Bar on Mobile */}
         <header className="flex items-center justify-between px-6 py-4 bg-white border-b border-slate-100 lg:hidden">
           <div className="flex items-center space-x-3">
-            <span className="font-display font-bold text-lg text-primary tracking-tight">Shanthi Nikethan</span>
+            <span className="font-display font-bold text-lg text-primary tracking-tight">Meeran Hospital</span>
             <span className="text-[10px] bg-secondary/15 text-secondary-dark px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider">
               Admin
             </span>

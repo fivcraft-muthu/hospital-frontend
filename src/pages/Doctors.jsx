@@ -5,44 +5,154 @@ import { FaUserMd, FaCalendarCheck, FaClock, FaMedal } from 'react-icons/fa';
 export default function Doctors() {
   const doctorsList = [
     {
-      name: 'Dr. Rajesh Pillai',
-      role: 'Chief Medical Officer',
-      specialization: 'General Medicine & Diabetology',
-      qualifications: 'MBBS, MD (General Medicine)',
-      experience: '15+ Years',
-      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 08:00 PM',
-      initials: 'RP',
+      name: 'Dr. M. Abdul Azeez',
+      role: 'Consultant Paediatrician',
+      specialization: 'Paediatrics',
+      qualifications: 'MBBS, MD (Paediatrics)',
+      experience: '10+ Years',
+      availability: 'Mon - Sat: 09:30 AM - 01:30 PM, 04:30 PM - 07:30 PM',
+      initials: 'AA',
       color: 'from-blue-500 to-indigo-600'
     },
     {
-      name: 'Dr. Sneha Subramanian',
-      role: 'Senior Consultant',
-      specialization: 'Gynecology & Obstetrics',
-      qualifications: 'MBBS, DGO (Obstetrics & Gynecology)',
+      name: 'Dr. M. Shakila Banu',
+      role: 'Consultant OBGYN',
+      specialization: 'Obstetrics & Gynecology',
+      qualifications: 'MBBS, DGO, MS (OBGYN)',
       experience: '12+ Years',
       availability: 'Mon - Sat: 10:00 AM - 02:00 PM, 05:00 PM - 08:00 PM',
-      initials: 'SS',
+      initials: 'SB',
       color: 'from-rose-400 to-pink-600'
     },
     {
-      name: 'Dr. Antony Joseph',
-      role: 'Consulting Pediatrician',
-      specialization: 'Pediatrics & Neonatal Care',
-      qualifications: 'MBBS, DCH (Pediatrics)',
-      experience: '10+ Years',
-      availability: 'Mon - Sat: 09:30 AM - 01:30 PM, 04:30 PM - 07:30 PM',
-      initials: 'AJ',
+      name: 'Dr. A. Shafeeq',
+      role: 'Consultant Gastroenterologist',
+      specialization: 'Gastroenterology',
+      qualifications: 'MBBS, MD, DM (Gastro)',
+      experience: '9+ Years',
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 07:00 PM',
+      initials: 'AS',
+      color: 'from-teal-400 to-emerald-600'
+    },
+    {
+      name: 'Dr. A. Larif',
+      role: 'Consultant Urologist',
+      specialization: 'Urology',
+      qualifications: 'M.S., DNB, M.ch.,(Uro)',
+      experience: '11+ Years',
+      availability: 'Mon - Sat: 10:00 AM - 01:00 PM, 04:00 PM - 07:30 PM',
+      initials: 'AL',
+      color: 'from-indigo-400 to-cyan-600'
+    },
+    {
+      name: 'Dr. Christopher.S.K',
+      role: 'Consultant Bariatric Surgeon',
+      specialization: 'Bariatric Surgery',
+      qualifications: 'M.B.B.S., DNB (Gen Surgery)',
+      experience: '8+ Years',
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 06:00 PM',
+      initials: 'CK',
       color: 'from-amber-400 to-orange-600'
     },
     {
-      name: 'Dr. Vikram Seth',
-      role: 'Visiting Surgeon',
-      specialization: 'Orthopedics & Joint Replacement',
-      qualifications: 'MBBS, MS (Orthopedics)',
+      name: 'Dr. Dinesh David',
+      role: 'Consultant Cardiologist',
+      specialization: 'Cardiology',
+      qualifications: 'MD., DM (Cardio)',
+      experience: '10+ Years',
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 08:00 PM',
+      initials: 'DD',
+      color: 'from-sky-400 to-blue-600'
+    },
+    {
+      name: 'Dr. S. Madhu',
+      role: 'Consultant Orthopedic Surgeon',
+      specialization: 'Orthopedics',
+      qualifications: 'M.B.B.S., M.s., (Ortho)',
+      experience: '14+ Years',
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 08:00 PM',
+      initials: 'SM',
+      color: 'from-emerald-400 to-teal-600'
+    },
+    {
+      name: 'Dr. Karthikeyan',
+      role: 'Consultant Nephrologist',
+      specialization: 'Nephrology',
+      qualifications: 'MD., (Gen. Med)., DM (Nephro)',
+      experience: '9+ Years',
+      availability: 'Mon - Sat: 10:00 AM - 02:00 PM, 05:00 PM - 08:00 PM',
+      initials: 'DK',
+      color: 'from-blue-600 to-violet-600'
+    },
+    {
+      name: 'Dr. Ashok',
+      role: 'Consultant Neurologist',
+      specialization: 'Neurology',
+      qualifications: 'MD., DM., (Neuro)',
+      experience: '12+ Years',
+      availability: 'Mon - Sat: 09:30 AM - 01:30 PM, 04:30 PM - 08:00 PM',
+      initials: 'DA',
+      color: 'from-indigo-500 to-purple-600'
+    },
+    {
+      name: 'Dr. Nirmal',
+      role: 'Consultant Psychiatrist',
+      specialization: 'Psychiatry',
+      qualifications: 'MD., (PSY)',
       experience: '8+ Years',
-      availability: 'Planned Appointments & Emergencies Only',
-      initials: 'VS',
-      color: 'from-teal-400 to-emerald-600'
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 07:00 PM',
+      initials: 'DN',
+      color: 'from-violet-400 to-fuchsia-600'
+    },
+    {
+      name: 'Dr. R. Santhosh Kumar',
+      role: 'Consultant Orthopedic Surgeon',
+      specialization: 'Orthopedics',
+      qualifications: 'M.S., (Ortho) DNB (Ortho)',
+      experience: '7+ Years',
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 08:00 PM',
+      initials: 'SK',
+      color: 'from-emerald-500 to-green-600'
+    },
+    {
+      name: 'Dr. G. Praveen Krishna',
+      role: 'Consultant Pediatric Surgeon',
+      specialization: 'Pediatric Surgery',
+      qualifications: 'M.S (Gen Surg)., M.ch (Paed. Surg)',
+      experience: '10+ Years',
+      availability: 'Mon - Sat: 10:00 AM - 01:00 PM, 04:00 PM - 07:00 PM',
+      initials: 'PK',
+      color: 'from-blue-400 to-sky-600'
+    },
+    {
+      name: 'Dr. M. Sivaram Gowtham',
+      role: 'Consultant ENT Specialist',
+      specialization: 'ENT',
+      qualifications: 'DLO., DNB.,',
+      experience: '8+ Years',
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 08:00 PM',
+      initials: 'SG',
+      color: 'from-cyan-400 to-blue-500'
+    },
+    {
+      name: 'Dr. V. Gowsalya',
+      role: 'Consultant Physiotherapist',
+      specialization: 'Physiotherapy',
+      qualifications: 'B.P.T.,',
+      experience: '6+ Years',
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 07:00 PM',
+      initials: 'VG',
+      color: 'from-rose-400 to-orange-400'
+    },
+    {
+      name: 'Dr. R. Krishna Kumar',
+      role: 'Consultant General Surgeon',
+      specialization: 'General Surgery',
+      qualifications: 'MS (Gen Surgery)',
+      experience: '11+ Years',
+      availability: 'Mon - Sat: 09:00 AM - 01:00 PM, 04:00 PM - 08:00 PM',
+      initials: 'KK',
+      color: 'from-teal-500 to-indigo-500'
     }
   ];
 
@@ -57,7 +167,7 @@ export default function Doctors() {
             Meet Our Doctors
           </h1>
           <p className="text-slate-400 text-sm max-w-xl">
-            Our qualified clinical experts bring years of medical experience to Shanthi Nikethan.
+            Our qualified clinical experts bring years of medical experience to Meeran Hospital.
           </p>
         </div>
       </section>

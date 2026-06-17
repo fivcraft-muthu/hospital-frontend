@@ -21,10 +21,21 @@ export default function AppointmentBooking() {
   const [bookedDetails, setBookedDetails] = useState(null);
 
   const doctors = [
-    'Dr. Rajesh Pillai - General Medicine',
-    'Dr. Sneha Subramanian - Gynecology',
-    'Dr. Antony Joseph - Pediatrics',
-    'Dr. Vikram Seth - Orthopedics'
+    'Dr. M. Abdul Azeez - Paediatrics',
+    'Dr. M. Shakila Banu - Obstetrics & Gynecology',
+    'Dr. A. Shafeeq - Gastroenterology',
+    'Dr. A. Larif - Urology',
+    'Dr. Christopher.S.K - Bariatric Surgery',
+    'Dr. Dinesh David - Cardiology',
+    'Dr. S. Madhu - Orthopedics',
+    'Dr. Karthikeyan - Nephrology',
+    'Dr. Ashok - Neurology',
+    'Dr. Nirmal - Psychiatry',
+    'Dr. R. Santhosh Kumar - Orthopedics',
+    'Dr. G. Praveen Krishna - Pediatric Surgery',
+    'Dr. M. Sivaram Gowtham - ENT',
+    'Dr. V. Gowsalya - Physiotherapy',
+    'Dr. R. Krishna Kumar - General Surgery'
   ];
 
   const timeSlots = [

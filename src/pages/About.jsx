@@ -25,10 +25,10 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-3">
           <span className="text-secondary font-bold text-xs uppercase tracking-widest block">Learn More</span>
           <h1 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl tracking-tight">
-            About Our Nursing Home
+            About Our Hospital
           </h1>
           <p className="text-slate-400 text-sm max-w-xl">
-            Shanthi Nikethan Nursing Home has been providing reliable healthcare services in Shenkottai, Tamil Nadu.
+            Meeran Hospital has been providing reliable healthcare services in Tenkasi, Tamil Nadu.
           </p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export default function About() {
             A Trusted Healthcare Partner Committed to the Community
           </h2>
           <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-            Located in KC Road, Shenkottai, Shanthi Nikethan Nursing Home has been a cornerstone of primary and secondary healthcare. We understand that medical consultations should be affordable without compromising on clinical diagnostics or care quality.
+            Located in Courtallam Main Road, Tenkasi, Meeran Hospital has been a cornerstone of primary and secondary healthcare. We understand that medical consultations should be affordable without compromising on clinical diagnostics or care quality.
           </p>
           <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
             Our clinical team consists of qualified medical practitioners, caring nurses, reception desk staff, and technical specialists who work collaboratively. We focus on diagnosing illnesses accurately, treating with the correct medication protocols, and guiding patient rehabilitation.

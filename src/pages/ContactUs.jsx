@@ -89,8 +89,8 @@ export default function ContactUs() {
               <div className="space-y-1 text-sm">
                 <h4 className="font-bold text-slate-800">Hospital Address</h4>
                 <p className="text-slate-600 leading-relaxed">
-                  180, KC Rd, Shenkottai,<br />
-                  Tamil Nadu - 627809
+                  Courtallam Main Road,<br />
+                  Tenkasi 627 811.
                 </p>
               </div>
             </div>
@@ -103,8 +103,8 @@ export default function ContactUs() {
               <div className="space-y-1 text-sm">
                 <h4 className="font-bold text-slate-800">Phone Directory</h4>
                 <p className="text-slate-600 font-bold text-base mt-0.5">
-                  <a href="tel:04633233103" className="hover:text-primary">
-                    04633 233 103
+                  <a href="tel:+919042532040" className="hover:text-primary">
+                    +91 90425 32040
                   </a>
                 </p>
                 <p className="text-xs text-slate-400">Available during consulting hours</p>
@@ -119,8 +119,8 @@ export default function ContactUs() {
               <div className="space-y-1 text-sm">
                 <h4 className="font-bold text-slate-800">Email Correspondence</h4>
                 <p className="text-slate-600">
-                  <a href="mailto:info@shanthinikethan.com" className="hover:text-primary font-medium">
-                    info@shanthinikethannursinghome.com
+                  <a href="mailto:meeranhospital@gmail.com" className="hover:text-primary font-medium">
+                    meeranhospital@gmail.com
                   </a>
                 </p>
               </div>
@@ -240,15 +240,15 @@ export default function ContactUs() {
         <div className="bg-white rounded-3xl border border-slate-100 shadow-sm overflow-hidden p-4">
           <div className="space-y-1 mb-4">
             <h3 className="font-display font-bold text-lg text-slate-800 px-2">Location Map</h3>
-            <p className="text-xs text-slate-400 px-2">180, KC Rd, Shenkottai, Tamil Nadu 627809</p>
+            <p className="text-xs text-slate-400 px-2">Courtallam Main Road, Tenkasi 627 811</p>
           </div>
           <div className="relative w-full h-96 rounded-2xl overflow-hidden border border-slate-100">
             <iframe
-              src="https://maps.google.com/maps?q=Shanthi%20Nikethan%20Nursing%20Home%20Shenkottai&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=Meeran%20Hospital%20Courtallam%20Main%20Road%20Tenkasi&t=&z=15&ie=UTF8&iwloc=&output=embed"
               className="absolute top-0 left-0 w-full h-full border-0"
               allowFullScreen=""
               loading="lazy"
-              title="Shanthi Nikethan Nursing Home Location Map"
+              title="Meeran Hospital Location Map"
             ></iframe>
           </div>
         </div>

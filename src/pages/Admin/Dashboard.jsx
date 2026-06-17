@@ -53,7 +53,7 @@ export default function Dashboard() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="font-display font-bold text-2xl text-slate-800">Dashboard Overview</h1>
-          <p className="text-slate-500 text-xs mt-0.5">Welcome to Shanthi Nikethan Admin Panel. Real-time statistics.</p>
+          <p className="text-slate-500 text-xs mt-0.5">Welcome to Meeran Hospital Admin Panel. Real-time statistics.</p>
         </div>
         <div>
           <button

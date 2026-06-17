@@ -130,11 +130,11 @@ export default function Services() {
               <span>Book Appointment Online</span>
             </Link>
             <a
-              href="tel:04633233103"
+              href="tel:+919042532040"
               className="w-full sm:w-auto flex items-center justify-center space-x-2 bg-white/10 hover:bg-white/20 text-white font-bold border border-white/20 px-6 py-3.5 rounded-xl text-sm transition-all duration-200"
             >
               <FaPhoneAlt />
-              <span>Call: 04633 233 103</span>
+              <span>Call: +91 90425 32040</span>
             </a>
           </div>
         </div>
